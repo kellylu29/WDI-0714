@@ -1,0 +1,141 @@
+/* The Modal (background) */
+#myModal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.hidden {
+    display: none;
+}
+
+/* Modal Content/Box */
+#modal-content {
+    font-family: Helvetica;
+    text-align: center;
+    background-color: #FFC0A9;
+    color: midnightblue;
+    margin: 10% auto; /* 10% from the top and centered */
+    padding: 0;
+    border: 1px solid #888;
+    width: 70%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Navigation */
+a:hover {
+  background-color: #FFC0A9;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #C9D787; 
+}
+
+li {
+  float: right;
+  font-family: Helvetica;
+}
+
+li a {
+  display: block;
+  padding: 14px 16px;
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #FFC0A9;
+}
+
+.active {
+  background-color: #FFC0A9;
+}
+
+/*Content*/
+
+img {
+  width: 100%;
+}
+
+h2 {
+  margin: 5px;
+  font-family: Helvetica;
+}
+
+p {
+  font-family: Helvetica;
+}
+
+.container {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+
+}
+
+.onLeft {
+  float: left;
+  color: midnightblue;
+  background-color: #fff;
+  border: 1px dashed black;
+  width: 60%;
+  margin: 20px 10px 10px 20px;
+  padding: 10px;
+}
+
+
+
+.onRight {
+  float: left;
+  color: midnightblue;
+  background-color: #fff;
+  border: 1px dashed black;
+  width: 30%;
+  margin: 20px 10px 10px 10px;
+  padding: 10px;
+}
+
+footer {
+  clear: both;
+  color: #fff;
+  background-color: #C9D787;
+  width: 100%;
+  height: 40px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer div {
+  padding: 10px;
+}
+
